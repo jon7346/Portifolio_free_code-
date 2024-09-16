@@ -4,7 +4,25 @@
     padding-top: 1;
    padding-bottom: 50px;
   }
-  #site{
+  a :any-link {
+    background: rgb(103, 86, 1);
+   }
+ 
+   a :hover{
+     color: black;
+     background: yellow;
+   }
+   a :visited {
+     color: salmon;
+     background-color: rgb(150, 150, 12);
+ 
+   }
+   a :link {
+     color: #131022;
+     background-color: bisque;
+ 
+   }
+  .site{
     color: whitesmoke;
     background-color: #131022 ;
     background-image: url(fundo2_4000x2667_8999x6000.png);
@@ -15,21 +33,5 @@
     background-blend-mode:color-dodge;
     font-size: 30px;
 }
-  a :any-link {
-   background: rgb(103, 86, 1);
-  }
-
-  a :hover{
-    color: black;
-    background: yellow;
-  }
-  a :visited {
-    color: salmon;
-    background-color: rgb(150, 150, 12);
-
-  }
-  a :link {
-    color: #131022;
-    background-color: bisque;
-
-  }
+ 
+  

@@ -1,5 +1,8 @@
-
-  body{
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
     color: whitesmoke;
     background-color: #131022 ;
     background-image: url(fundo2_4000x2667_8999x6000.png);
@@ -10,15 +13,30 @@
     background-blend-mode:color-dodge;
     font-size: 30px;
 }
+
+#introdução, #sobre-mim {
+    text-align: center;
+    margin: auto;
+    padding: 15px;
+}
  #introdução {
-margin: auto;
-color: #fff;
-font-family: 'Courier New', Courier, monospace;
+
+ color: #fff;
+ font-family: 'Courier New', Courier, monospace;
 
  }
- #sobre-mim{
-  margin: auto;
-  color: #fff;
-  font-family: 'Courier New', Courier, monospace;
-  font-size: medium;
+ a.link{
+  text-decoration: none;
+  background-color: rgba(40, 39, 38, 0.852);
+  color: #fff;;
+ }
+ #projetos {
+  padding-top: 300px;
+  width: 920px
+ }
+ .projeto {
+  width: 400px; 
+  padding: 10px;
+  background-color: #131022;
+
  }

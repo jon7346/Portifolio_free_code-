@@ -1,10 +1,5 @@
-  .titulo{
-    font-size: 50px;
-    margin-top: 0;
-    padding-top: 1;
-   padding-bottom: 50px;
-  }
-  .site{
+
+  body{
     color: whitesmoke;
     background-color: #131022 ;
     background-image: url(fundo2_4000x2667_8999x6000.png);
@@ -15,4 +10,15 @@
     background-blend-mode:color-dodge;
     font-size: 30px;
 }
- 
+ #introdução {
+margin: auto;
+color: #fff;
+font-family: 'Courier New', Courier, monospace;
+
+ }
+ #sobre-mim{
+  margin: auto;
+  color: #fff;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: medium;
+ }

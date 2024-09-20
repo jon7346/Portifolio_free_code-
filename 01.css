@@ -4,14 +4,10 @@
 }
 body{
     color: whitesmoke;
-    background-color: #131022 ;
-    background-image: url(fundo2_4000x2667_8999x6000.png);
-    background-position:50%;
-    background-repeat: repeat-y;
-    backface-visibility: 85%;
-    background-size: 95% ;
-    background-blend-mode:color-dodge;
-    font-size: 30px;
+    background-color: #000606;
+    background-position: top right;
+    background-repeat: no-repeat;
+
 }
 
 #introdução, #sobre-mim {
@@ -19,6 +15,7 @@ body{
     margin: auto;
     padding: 15px;
 }
+
  #introdução {
 
  color: #fff;
@@ -37,6 +34,6 @@ body{
  .projeto {
   width: 400px; 
   padding: 10px;
-  background-color: #131022;
 
  }
+ 
